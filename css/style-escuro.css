@@ -1,0 +1,79 @@
+/*
+Este é o tema escuro correspondente ao seu novo design.
+*/
+
+body {
+    background-color: #2c3e50; /* Fundo azul escuro (cor do header claro) */
+    color: #ecf0f1; /* Texto claro */
+}
+
+header, footer {
+    background-color: #1f2b38; /* Azul mais escuro */
+}
+
+section {
+    background-color: #34495e; /* Fundo da seção (cor do h1 claro) */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+/* Títulos */
+h1, h2 {
+    color: #ecf0f1; /* Texto claro */
+    border-bottom: 2px solid #3498db;
+}
+
+/* Parágrafos e Itens de Lista */
+p, li {
+    color: #bdc3c7; /* Cinza claro */
+}
+
+/* Tabela */
+th {
+    background-color: #3498db;
+    color: white;
+}
+td {
+    border-bottom: 1px solid #4a627a;
+}
+tbody tr:nth-child(even) {
+    background-color: #2c3e50;
+}
+tbody tr:hover {
+    background-color: #4a627a;
+}
+
+/* Formulário */
+label {
+    color: #ecf0f1;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #5d738a;
+    color: #ecf0f1;
+    border: 1px solid #7f8c8d;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #3498db;
+}
+
+/* Botão de Tema */
+#theme-toggle {
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+#theme-toggle:hover {
+    background-color: #3498db;
+}
+
+/* Mensagens de validação */
+#validation-message.error {
+    color: #ff8a8a; /* Vermelho claro */
+}
+#validation-message.success {
+    color: #a5d6a7; /* Verde claro */
+}
